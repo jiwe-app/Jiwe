@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8D49957293C261700AA3E87 /* JiweApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49956293C261700AA3E87 /* JiweApp.swift */; };
+		A8D49959293C261700AA3E87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49958293C261700AA3E87 /* ContentView.swift */; };
+		A8D4995B293C261800AA3E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D4995A293C261800AA3E87 /* Assets.xcassets */; };
+		A8D4995E293C261800AA3E87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D4995D293C261800AA3E87 /* Preview Assets.xcassets */; };
+		A8D49969293C261800AA3E87 /* JiweTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49968293C261800AA3E87 /* JiweTests.swift */; };
+		A8D49973293C261800AA3E87 /* JiweUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49972293C261800AA3E87 /* JiweUITests.swift */; };
+		A8D49975293C261800AA3E87 /* JiweUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49974293C261800AA3E87 /* JiweUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8D49965293C261800AA3E87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8D4994B293C261600AA3E87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8D49952293C261700AA3E87;
+			remoteInfo = Jiwe;
+		};
+		A8D4996F293C261800AA3E87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8D4994B293C261600AA3E87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8D49952293C261700AA3E87;
+			remoteInfo = Jiwe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8D49953293C261700AA3E87 /* Jiwe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiwe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D49956293C261700AA3E87 /* JiweApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiweApp.swift; sourceTree = "<group>"; };
+		A8D49958293C261700AA3E87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8D4995A293C261800AA3E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8D4995D293C261800AA3E87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8D4995F293C261800AA3E87 /* Jiwe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jiwe.entitlements; sourceTree = "<group>"; };
+		A8D49964293C261800AA3E87 /* JiweTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiweTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D49968293C261800AA3E87 /* JiweTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiweTests.swift; sourceTree = "<group>"; };
+		A8D4996E293C261800AA3E87 /* JiweUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiweUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D49972293C261800AA3E87 /* JiweUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiweUITests.swift; sourceTree = "<group>"; };
+		A8D49974293C261800AA3E87 /* JiweUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiweUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8D49950293C261700AA3E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D49961293C261800AA3E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D4996B293C261800AA3E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8D4994A293C261600AA3E87 = {
+			isa = PBXGroup;
+			children = (
+				A8D49955293C261700AA3E87 /* Jiwe */,
+				A8D49967293C261800AA3E87 /* JiweTests */,
+				A8D49971293C261800AA3E87 /* JiweUITests */,
+				A8D49954293C261700AA3E87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8D49954293C261700AA3E87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8D49953293C261700AA3E87 /* Jiwe.app */,
+				A8D49964293C261800AA3E87 /* JiweTests.xctest */,
+				A8D4996E293C261800AA3E87 /* JiweUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8D49955293C261700AA3E87 /* Jiwe */ = {
+			isa = PBXGroup;
+			children = (
+				A8D49956293C261700AA3E87 /* JiweApp.swift */,
+				A8D49958293C261700AA3E87 /* ContentView.swift */,
+				A8D4995A293C261800AA3E87 /* Assets.xcassets */,
+				A8D4995F293C261800AA3E87 /* Jiwe.entitlements */,
+				A8D4995C293C261800AA3E87 /* Preview Content */,
+			);
+			path = Jiwe;
+			sourceTree = "<group>";
+		};
+		A8D4995C293C261800AA3E87 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A8D4995D293C261800AA3E87 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8D49967293C261800AA3E87 /* JiweTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8D49968293C261800AA3E87 /* JiweTests.swift */,
+			);
+			path = JiweTests;
+			sourceTree = "<group>";
+		};
+		A8D49971293C261800AA3E87 /* JiweUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8D49972293C261800AA3E87 /* JiweUITests.swift */,
+				A8D49974293C261800AA3E87 /* JiweUITestsLaunchTests.swift */,
+			);
+			path = JiweUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8D49952293C261700AA3E87 /* Jiwe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D49978293C261800AA3E87 /* Build configuration list for PBXNativeTarget "Jiwe" */;
+			buildPhases = (
+				A8D4994F293C261700AA3E87 /* Sources */,
+				A8D49950293C261700AA3E87 /* Frameworks */,
+				A8D49951293C261700AA3E87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jiwe;
+			productName = Jiwe;
+			productReference = A8D49953293C261700AA3E87 /* Jiwe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8D49963293C261800AA3E87 /* JiweTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D4997B293C261800AA3E87 /* Build configuration list for PBXNativeTarget "JiweTests" */;
+			buildPhases = (
+				A8D49960293C261800AA3E87 /* Sources */,
+				A8D49961293C261800AA3E87 /* Frameworks */,
+				A8D49962293C261800AA3E87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8D49966293C261800AA3E87 /* PBXTargetDependency */,
+			);
+			name = JiweTests;
+			productName = JiweTests;
+			productReference = A8D49964293C261800AA3E87 /* JiweTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8D4996D293C261800AA3E87 /* JiweUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D4997E293C261800AA3E87 /* Build configuration list for PBXNativeTarget "JiweUITests" */;
+			buildPhases = (
+				A8D4996A293C261800AA3E87 /* Sources */,
+				A8D4996B293C261800AA3E87 /* Frameworks */,
+				A8D4996C293C261800AA3E87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8D49970293C261800AA3E87 /* PBXTargetDependency */,
+			);
+			name = JiweUITests;
+			productName = JiweUITests;
+			productReference = A8D4996E293C261800AA3E87 /* JiweUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8D4994B293C261600AA3E87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A8D49952293C261700AA3E87 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A8D49963293C261800AA3E87 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A8D49952293C261700AA3E87;
+					};
+					A8D4996D293C261800AA3E87 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A8D49952293C261700AA3E87;
+					};
+				};
+			};
+			buildConfigurationList = A8D4994E293C261600AA3E87 /* Build configuration list for PBXProject "Jiwe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8D4994A293C261600AA3E87;
+			productRefGroup = A8D49954293C261700AA3E87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8D49952293C261700AA3E87 /* Jiwe */,
+				A8D49963293C261800AA3E87 /* JiweTests */,
+				A8D4996D293C261800AA3E87 /* JiweUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8D49951293C261700AA3E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D4995E293C261800AA3E87 /* Preview Assets.xcassets in Resources */,
+				A8D4995B293C261800AA3E87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D49962293C261800AA3E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D4996C293C261800AA3E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8D4994F293C261700AA3E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D49959293C261700AA3E87 /* ContentView.swift in Sources */,
+				A8D49957293C261700AA3E87 /* JiweApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D49960293C261800AA3E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D49969293C261800AA3E87 /* JiweTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D4996A293C261800AA3E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D49973293C261800AA3E87 /* JiweUITests.swift in Sources */,
+				A8D49975293C261800AA3E87 /* JiweUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8D49966293C261800AA3E87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8D49952293C261700AA3E87 /* Jiwe */;
+			targetProxy = A8D49965293C261800AA3E87 /* PBXContainerItemProxy */;
+		};
+		A8D49970293C261800AA3E87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8D49952293C261700AA3E87 /* Jiwe */;
+			targetProxy = A8D4996F293C261800AA3E87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A8D49976293C261800AA3E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8D49977293C261800AA3E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A8D49979293C261800AA3E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Jiwe/Jiwe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jiwe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaitam.Jiwe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A8D4997A293C261800AA3E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Jiwe/Jiwe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jiwe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaitam.Jiwe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A8D4997C293C261800AA3E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaitam.JiweTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jiwe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jiwe";
+			};
+			name = Debug;
+		};
+		A8D4997D293C261800AA3E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaitam.JiweTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jiwe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jiwe";
+			};
+			name = Release;
+		};
+		A8D4997F293C261800AA3E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaitam.JiweUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Jiwe;
+			};
+			name = Debug;
+		};
+		A8D49980293C261800AA3E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaitam.JiweUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Jiwe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8D4994E293C261600AA3E87 /* Build configuration list for PBXProject "Jiwe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D49976293C261800AA3E87 /* Debug */,
+				A8D49977293C261800AA3E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D49978293C261800AA3E87 /* Build configuration list for PBXNativeTarget "Jiwe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D49979293C261800AA3E87 /* Debug */,
+				A8D4997A293C261800AA3E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D4997B293C261800AA3E87 /* Build configuration list for PBXNativeTarget "JiweTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D4997C293C261800AA3E87 /* Debug */,
+				A8D4997D293C261800AA3E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D4997E293C261800AA3E87 /* Build configuration list for PBXNativeTarget "JiweUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D4997F293C261800AA3E87 /* Debug */,
+				A8D49980293C261800AA3E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8D4994B293C261600AA3E87 /* Project object */;
+}
