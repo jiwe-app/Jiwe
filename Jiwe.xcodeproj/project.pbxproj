@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A8D49957293C261700AA3E87 /* JiweApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49956293C261700AA3E87 /* JiweApp.swift */; };
-		A8D49959293C261700AA3E87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49958293C261700AA3E87 /* ContentView.swift */; };
+		A8D49957293C261700AA3E87 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49956293C261700AA3E87 /* App.swift */; };
+		A8D49959293C261700AA3E87 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49958293C261700AA3E87 /* SettingsView.swift */; };
 		A8D4995B293C261800AA3E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D4995A293C261800AA3E87 /* Assets.xcassets */; };
 		A8D4995E293C261800AA3E87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D4995D293C261800AA3E87 /* Preview Assets.xcassets */; };
 		A8D49969293C261800AA3E87 /* JiweTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49968293C261800AA3E87 /* JiweTests.swift */; };
 		A8D49973293C261800AA3E87 /* JiweUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49972293C261800AA3E87 /* JiweUITests.swift */; };
 		A8D49975293C261800AA3E87 /* JiweUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49974293C261800AA3E87 /* JiweUITestsLaunchTests.swift */; };
+		A8D49982293C266F00AA3E87 /* JiweWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49981293C266F00AA3E87 /* JiweWindow.swift */; };
+		A8D49984293C26BE00AA3E87 /* JiweView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49983293C26BE00AA3E87 /* JiweView.swift */; };
+		A8D49986293C2DD400AA3E87 /* WidgetHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49985293C2DD400AA3E87 /* WidgetHandler.swift */; };
+		A8D49989293C2E1800AA3E87 /* JiweInterface in Frameworks */ = {isa = PBXBuildFile; productRef = A8D49988293C2E1800AA3E87 /* JiweInterface */; };
+		A8D4998B293C2F2500AA3E87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4998A293C2F2500AA3E87 /* AppDelegate.swift */; };
+		A8D4998E293C2F8200AA3E87 /* NoWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4998D293C2F8200AA3E87 /* NoWidgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +41,8 @@
 
 /* Begin PBXFileReference section */
 		A8D49953293C261700AA3E87 /* Jiwe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiwe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8D49956293C261700AA3E87 /* JiweApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiweApp.swift; sourceTree = "<group>"; };
-		A8D49958293C261700AA3E87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8D49956293C261700AA3E87 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		A8D49958293C261700AA3E87 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		A8D4995A293C261800AA3E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8D4995D293C261800AA3E87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8D4995F293C261800AA3E87 /* Jiwe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jiwe.entitlements; sourceTree = "<group>"; };
@@ -45,6 +51,11 @@
 		A8D4996E293C261800AA3E87 /* JiweUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiweUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D49972293C261800AA3E87 /* JiweUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiweUITests.swift; sourceTree = "<group>"; };
 		A8D49974293C261800AA3E87 /* JiweUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiweUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8D49981293C266F00AA3E87 /* JiweWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiweWindow.swift; sourceTree = "<group>"; };
+		A8D49983293C26BE00AA3E87 /* JiweView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiweView.swift; sourceTree = "<group>"; };
+		A8D49985293C2DD400AA3E87 /* WidgetHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHandler.swift; sourceTree = "<group>"; };
+		A8D4998A293C2F2500AA3E87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8D4998D293C2F8200AA3E87 /* NoWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoWidgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D49989293C2E1800AA3E87 /* JiweInterface in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +107,14 @@
 		A8D49955293C261700AA3E87 /* Jiwe */ = {
 			isa = PBXGroup;
 			children = (
-				A8D49956293C261700AA3E87 /* JiweApp.swift */,
-				A8D49958293C261700AA3E87 /* ContentView.swift */,
+				A8D4998C293C2F6500AA3E87 /* Views */,
+				A8D49956293C261700AA3E87 /* App.swift */,
 				A8D4995A293C261800AA3E87 /* Assets.xcassets */,
 				A8D4995F293C261800AA3E87 /* Jiwe.entitlements */,
 				A8D4995C293C261800AA3E87 /* Preview Content */,
+				A8D49981293C266F00AA3E87 /* JiweWindow.swift */,
+				A8D49985293C2DD400AA3E87 /* WidgetHandler.swift */,
+				A8D4998A293C2F2500AA3E87 /* AppDelegate.swift */,
 			);
 			path = Jiwe;
 			sourceTree = "<group>";
@@ -129,6 +144,16 @@
 			path = JiweUITests;
 			sourceTree = "<group>";
 		};
+		A8D4998C293C2F6500AA3E87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8D49958293C261700AA3E87 /* SettingsView.swift */,
+				A8D49983293C26BE00AA3E87 /* JiweView.swift */,
+				A8D4998D293C2F8200AA3E87 /* NoWidgetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +170,9 @@
 			dependencies = (
 			);
 			name = Jiwe;
+			packageProductDependencies = (
+				A8D49988293C2E1800AA3E87 /* JiweInterface */,
+			);
 			productName = Jiwe;
 			productReference = A8D49953293C261700AA3E87 /* Jiwe.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +245,9 @@
 				Base,
 			);
 			mainGroup = A8D4994A293C261600AA3E87;
+			packageReferences = (
+				A8D49987293C2E1800AA3E87 /* XCRemoteSwiftPackageReference "jiwe-interface" */,
+			);
 			productRefGroup = A8D49954293C261700AA3E87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8D49959293C261700AA3E87 /* ContentView.swift in Sources */,
-				A8D49957293C261700AA3E87 /* JiweApp.swift in Sources */,
+				A8D4998B293C2F2500AA3E87 /* AppDelegate.swift in Sources */,
+				A8D49959293C261700AA3E87 /* SettingsView.swift in Sources */,
+				A8D49957293C261700AA3E87 /* App.swift in Sources */,
+				A8D4998E293C2F8200AA3E87 /* NoWidgetView.swift in Sources */,
+				A8D49982293C266F00AA3E87 /* JiweWindow.swift in Sources */,
+				A8D49986293C2DD400AA3E87 /* WidgetHandler.swift in Sources */,
+				A8D49984293C26BE00AA3E87 /* JiweView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +604,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A8D49987293C2E1800AA3E87 /* XCRemoteSwiftPackageReference "jiwe-interface" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jiwe-app/jiwe-interface";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A8D49988293C2E1800AA3E87 /* JiweInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8D49987293C2E1800AA3E87 /* XCRemoteSwiftPackageReference "jiwe-interface" */;
+			productName = JiweInterface;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A8D4994B293C261600AA3E87 /* Project object */;
 }

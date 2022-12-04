@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "jiwe-interface",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jiwe-app/jiwe-interface",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e08ab9a7fa6d8db1d35df87787aa7e1fe75bded5"
+      }
+    }
+  ],
+  "version" : 2
+}
