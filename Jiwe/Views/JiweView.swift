@@ -14,8 +14,7 @@ struct JiweView: View {
                 NoWidgetView()
             } else {
                 ForEach(allWidgetsInDirectory, id: \.self) { w in
-                    AnyView(LoadPlugin(at: "\(widgetsDirectory.path)/\(w)").view)
-                    
+                    AnyView(LoadPlugin(at: "\(widgetsDirectory().path)/\(w)").view)
                 }
             }
         }

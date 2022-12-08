@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A84EC875293EB4940018D423 /* StatusBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84EC874293EB4940018D423 /* StatusBarManager.swift */; };
+		A8CD4552294020B0005FF8FE /* JiweInterface in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A8D49988293C2E1800AA3E87 /* JiweInterface */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A8D49957293C261700AA3E87 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49956293C261700AA3E87 /* App.swift */; };
 		A8D49959293C261700AA3E87 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49958293C261700AA3E87 /* SettingsView.swift */; };
 		A8D4995B293C261800AA3E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D4995A293C261800AA3E87 /* Assets.xcassets */; };
@@ -39,7 +41,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A8CD4553294020B0005FF8FE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A8CD4552294020B0005FF8FE /* JiweInterface in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A84EC874293EB4940018D423 /* StatusBarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarManager.swift; sourceTree = "<group>"; };
 		A8D49953293C261700AA3E87 /* Jiwe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiwe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D49956293C261700AA3E87 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		A8D49958293C261700AA3E87 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -115,6 +132,7 @@
 				A8D49981293C266F00AA3E87 /* JiweWindow.swift */,
 				A8D49985293C2DD400AA3E87 /* WidgetHandler.swift */,
 				A8D4998A293C2F2500AA3E87 /* AppDelegate.swift */,
+				A84EC874293EB4940018D423 /* StatusBarManager.swift */,
 			);
 			path = Jiwe;
 			sourceTree = "<group>";
@@ -164,6 +182,7 @@
 				A8D4994F293C261700AA3E87 /* Sources */,
 				A8D49950293C261700AA3E87 /* Frameworks */,
 				A8D49951293C261700AA3E87 /* Resources */,
+				A8CD4553294020B0005FF8FE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,6 +315,7 @@
 				A8D4998E293C2F8200AA3E87 /* NoWidgetView.swift in Sources */,
 				A8D49982293C266F00AA3E87 /* JiweWindow.swift in Sources */,
 				A8D49986293C2DD400AA3E87 /* WidgetHandler.swift in Sources */,
+				A84EC875293EB4940018D423 /* StatusBarManager.swift in Sources */,
 				A8D49984293C26BE00AA3E87 /* JiweView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

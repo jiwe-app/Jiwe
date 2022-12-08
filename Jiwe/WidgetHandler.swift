@@ -40,7 +40,27 @@ func LoadPlugin(at path:String) -> JiweWidget {
 }
 
 
-let widgetsDirectory: URL = {
+func widgetsDirectory() -> URL { //TODO: Cleanup
+    guard let bookmark = UserDefaults.standard.data(forKey: "widgetsFolderBookmark") else { return defaultDir() }
+    do {
+        var isStale = false
+        let selectedFolderURL = try URL(resolvingBookmarkData: bookmark,
+                                        options: .withSecurityScope,
+                                        relativeTo: nil,
+                                        bookmarkDataIsStale: &isStale)
+        if selectedFolderURL.startAccessingSecurityScopedResource() {
+            return selectedFolderURL
+        }
+        //let isReadable = FileManager.default.isReadableFile(atPath: selectedFolderURL.path)
+        //let isWritable = FileManager.default.isWritableFile(atPath: selectedFolderURL.path)
+        return defaultDir()
+    } catch {
+        return defaultDir()
+
+    }
+}
+
+func defaultDir() -> URL {
     var url = FileManager().urls(for: .applicationSupportDirectory,
                                  in: .userDomainMask).first!
     url.appendPathComponent("widgets");
@@ -51,14 +71,15 @@ let widgetsDirectory: URL = {
             print("\(error.localizedDescription)")
         }
     }
-    return url
-}()
+    return url;
+}
 
 let allWidgetsInDirectory: [String] = {
     var allWidgets: [String] = [];
     do {
-        allWidgets = try FileManager.default.contentsOfDirectory(at: widgetsDirectory, includingPropertiesForKeys: nil, options: []).filter({
-                $0.path.hasSuffix(".dylib") && !$0.path.hasSuffix("libJiweInterface.dylib") // libJiweInterface will be the dependency dylib included, and it is not a widget so we exclude it
+        allWidgets = try FileManager.default.contentsOfDirectory(at: widgetsDirectory(), includingPropertiesForKeys: nil, options: []).filter({
+                $0.path.hasSuffix(".dylib") && !$0.path.hasSuffix("libJiweInterface.dylib")
+            // libJiweInterface will be the dependency dylib included, and it is not a widget so we exclude it
         }).map({ $0.lastPathComponent })
      }
      catch {

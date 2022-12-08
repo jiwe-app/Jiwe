@@ -14,7 +14,7 @@ struct NoWidgetView: View {
             Text("Jiwe is a desktop customization tool which allows you to use widgets, just like this one, on top of your wall paper. To add a new widget open the widgets folder and add the files ending in '.dylib'. To create a new widget follow the guide on the repository's wiki. The widgets are programmed in swiftui to allow the app to be performant. Please take in notice this app is still in BETA version. Thanks for trying Jiwe!").frame(width: 300, alignment: .center).padding(.bottom, 12)
             HStack {
                 Button(action: {
-                    NSWorkspace.shared.selectFile(nil, inFileViewerRootedAtPath: widgetsDirectory.path)
+                    NSWorkspace.shared.selectFile(nil, inFileViewerRootedAtPath: widgetsDirectory().path)
                 }) {
                     Text("Widget Dir").foregroundColor(Color.black).padding()
                 }.background(RoundedRectangle(cornerRadius: 10, style: .continuous))

@@ -46,4 +46,7 @@ class JiweWindow: NSWindow {
         setFrame(screen.visibleFrame, display: true)
         orderFront(nil)
     }
+    func reloadWidgets() {
+        self.contentView = NSHostingView(rootView: JiweView())
+    }
 }
