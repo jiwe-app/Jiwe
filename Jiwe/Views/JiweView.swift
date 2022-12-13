@@ -10,10 +10,10 @@ import SwiftUI
 struct JiweView: View {
     var body: some View {
         ZStack {
-            if (allWidgetsInDirectory.isEmpty) {
+            if (allWidgetsInDirectory().isEmpty) {
                 NoWidgetView()
             } else {
-                ForEach(allWidgetsInDirectory, id: \.self) { w in
+                ForEach(allWidgetsInDirectory(), id: \.self) { w in
                     AnyView(LoadPlugin(at: "\(widgetsDirectory().path)/\(w)").view)
                 }
             }

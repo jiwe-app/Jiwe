@@ -74,7 +74,7 @@ func defaultDir() -> URL {
     return url;
 }
 
-let allWidgetsInDirectory: [String] = {
+func allWidgetsInDirectory() -> [String] {
     var allWidgets: [String] = [];
     do {
         allWidgets = try FileManager.default.contentsOfDirectory(at: widgetsDirectory(), includingPropertiesForKeys: nil, options: []).filter({
@@ -86,4 +86,4 @@ let allWidgetsInDirectory: [String] = {
          print(error.localizedDescription)
      }
     return allWidgets;
-}()
+}
