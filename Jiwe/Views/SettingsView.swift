@@ -13,7 +13,7 @@ import ServiceManagement
 // - Screen or screens (Each screen each widgets folder)
 
 struct SettingsView: View {
-    @State private var launchAtLogin = false //TODO: SMAppService.mainApp.status == .enabled (Currently for it to work on 12.0)
+    @State private var launchAtLogin = SMAppService.mainApp.status == .enabled
     @State private var widgetsDir = widgetsDirectory()
     @State private var pickerOption = ""
     @State private var allowInteraction = UserDefaults.standard.bool(forKey: "allowInteraction");
