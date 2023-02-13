@@ -31,8 +31,7 @@ jobs:
       - name: Ls
         run: |
           ls -a
-          ls -a .build
-          ls -a .build/Debug
+          ls -a default
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
