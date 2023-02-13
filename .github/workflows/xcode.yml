@@ -28,11 +28,8 @@ jobs:
           if [ "`ls -A | grep -i \\.xcworkspace\$`" ]; then filetype_parameter="workspace" && file_to_build="`ls -A | grep -i \\.xcworkspace\$`"; else filetype_parameter="project" && file_to_build="`ls -A | grep -i \\.xcodeproj\$`"; fi
           file_to_build=`echo $file_to_build | awk '{$1=$1;print}'`
           xcodebuild clean build analyze -scheme "$scheme" -"$filetype_parameter" "$file_to_build" CONFIGURATION_BUILD_DIR="$(pwd)" | xcpretty && exit ${PIPESTATUS[0]}
-      - name: Ls
-        run: |
-          ls -R -a
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
           name: Jiwe
-          path: .build/Debug/Jiwe.app
+          path: ./Jiwe.app
